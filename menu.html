@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Menu</title>
+<meta name="keywords" content="free css templates, gallery, greeny, CSS, HTML" />
+<meta name="description" content="Greeny Gallery - free CSS template" />
+<link href="mystyle.css" rel="stylesheet" type="text/css" />
+
+<!--////// CHOOSE ONE OF THE 3 PIROBOX STYLES  \\\\\\\-->
+<link href="css_pirobox/white/style.css" media="screen" title="shadow" rel="stylesheet" type="text/css" />
+<!--<link href="css_pirobox/white/style.css" media="screen" title="white" rel="stylesheet" type="text/css" />
+<link href="css_pirobox/black/style.css" media="screen" title="black" rel="stylesheet" type="text/css" />-->
+<!--////// END  \\\\\\\-->
+
+<!--////// INCLUDE THE JS AND PIROBOX OPTION IN YOUR HEADER  \\\\\\\-->
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/piroBox.1_2.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+	$().piroBox({
+			my_speed: 600, //animation speed
+			bg_alpha: 0.5, //background opacity
+			radius: 4, //caption rounded corner
+			scrollImage : false, // true == image follows the page, false == image remains in the same open position
+			pirobox_next : 'piro_next', // Nav buttons -> piro_next == inside piroBox , piro_next_out == outside piroBox
+			pirobox_prev : 'piro_prev',// Nav buttons -> piro_prev == inside piroBox , piro_prev_out == outside piroBox
+			close_all : '.piro_close',// add class .piro_overlay(with comma)if you want overlay click close piroBox
+			slideShow : 'slideshow', // just delete slideshow between '' if you don't want it.
+			slideSpeed : 4 //slideshow duration in seconds(3 to 6 Recommended)
+	});
+});
+</script>
+<!--////// END  \\\\\\\-->
+
+</head>
+<body>
+
+<div id="header_wrapper">
+	<div id="header">
+    	
+       		<div id="site_title">
+            <a href="index.html"><img src="LOGO-3.png" width="150" height="150"  style="position:relative;top:-20px;left:10px;"/></a>
+    </div> <!-- end of site_title -->
+
+        <div id="menu">
+            <ul>
+               <li><div class="menu_button"><a href="index.html">Home</a></div></li>
+                <li><div class="menu_button"><a href="menu.html">Menu</a></div></li>
+                <li><div class="menu_button"><a href="about.html">About Us</a></div></li>
+                <li><div class="menu_button"><a href="contact.html">Contact</a></div></li>
+                                <li><div class="menu_button"><a href="join.html">Join Us</a></div></li>
+
+               	</ul>
+        </div> <!-- end of _menu -->
+
+        <div class="cleaner"></div>
+        
+	</div> <!-- end of _header -->
+</div> <!-- end of _header_wrapper -->
+
+<div id="banner_wrapper">
+	<div id="banner">
+    
+    
+        <h1>WHAT IS OUR UNIQUENESS? </h1>
+        <p>本店独具多项独有的饮食产品，仅在此处，别无他处。这些独特产品的配方多为祖传，或基于独特的原料制作。 </p>
+    </div>	<!-- end of banner -->
+</div> <!-- end of banner_wrapper -->
+
+<div id="content_wrapper">
+	<div id="content">
+    
+    		<div class="col_w425 float_l">
+            
+                <h2>HOUSE SPECIAL:</span></h2>
+                
+                <div width="200" border=0" class="gallery">
+  <ul>
+  <li><img src="images/rice_wine_pearl.jpg" width = "220" height = "220"/>
+    <p>珍珠桂花米酒</P>
+    <p>RICE WINE WITH PEARL</p>
+    </li>
+    <li>
+    <img src="images/templatemo_image_05.jpg"/>
+    <p>CHINESE COFFEE TEA</p>
+    <p>中华咖啡红茶</p>
+    
+    <p>中华咖啡红茶由红茶馆原始店的创始人王先生，在1937年独创，是具有浓郁咖啡香型的红茶饮料。完全不含咖啡因。</p>
+<p>CHINESE COFFEE TEA WAS CREATED BY WANG'S FAMILY IN 1937. IT IS A BLACK TEA BASED DRINK WITH A NATURE COFFEE FLAVOR WITHOUT ANY CAFEINE.</p>
+</li>
+    <li>
+    <img src="images/templatemo_image_05.jpg"/>
+    <p>祁红茶</p>
+    <p>祁红茶原产于中国安徽祁门地区。祁红茶在1917年巴拿马世界博览会上荣获金奖，因其独特的自然玫瑰香型，被誉为高贵的皇家红茶。它是世界上最好的三大红茶之一。另外两种红茶分别是印度的大吉岭红茶和斯里兰卡的锡兰红茶。</p>
+    
+<p>"QI HONG" BLACK TEA WAS AWARDED A GOLD MEDAL IN PANAMA INTERNATIONAL FAIR IN 1917. IT HAS CALLED "ROYAL BLACK TEA" BECAUSE OF ITS UNIQUE NATURE ROSE FLAVOR. IT IS ONE OF THE THREE MOST FAMOUS BLACK TEAS AROUND THE WORLD (THE OTHER TWO TEAS ARE DAJILING INDIA AND XILAN Sri Lanka). </p>
+</li>
+    </li>
+    
+    <li><img src="images/rice_puddin.jpg" width = "220" height = "220"/>
+    <p>桂花布丁</P>
+    <p>RICE PUDDIN</p>
+    </li>
+</ul>
+</div>
+</div>
+  <div class="col_w425 col_last">
+            <h2>ABOUT OUR PRODUCT</span></h2>
+            <p><a href="menu/productlist.pdf">HOT CAFE 产品介绍</a></p>
+            <p><a href="menu/menulist.pdf">HOT CAFE FULL MENU 菜单</a></p>
+            </div>
+            </div>
+            
+            
+            <div class="cleaner"></div>
+    </div> <!-- end of content -->
+</div> <!-- end of content -->
+
+<div id="footer_wrapper">
+	<div id="footer">
+    
+       	 Copyright © 2013 <a href="#">HOT CAFE LTD</a> 
+    
+    </div>
+</div>
+</body>
+</html>
